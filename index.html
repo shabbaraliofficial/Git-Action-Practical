@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Static Website with JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome Bhai 👑</h1>
+        <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Click Button Example</h2>
+        <button onclick="showMessage()">Click Me</button>
+    </section>
+
+    <section>
+        <h2>Contact Form</h2>
+        <form onsubmit="return validateForm()">
+            <input type="text" id="name" placeholder="Enter your name">
+            <input type="email" id="email" placeholder="Enter your email">
+            <button type="submit">Submit</button>
+        </form>
+        <p id="error" style="color:red;"></p>
+    </section>
+
+    <footer>
+        <p>© 2026 Static Website with JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
