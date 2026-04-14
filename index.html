@@ -1,41 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Static Website with JS</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevOps CI/CD Demo</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
-    <header>
-        <h1>Welcome Bhai 👑</h1>
-        <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
-    </header>
+  <header class="header">
+    <h1>🚀 DevOps CI/CD Pipeline</h1>
+    <p>GitHub Actions | Docker | Kubernetes</p>
+  </header>
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-    </nav>
+  <section class="card-container">
+    <div class="card">
+      <h2>📦 GitHub</h2>
+      <p>Code pushed to repository</p>
+    </div>
 
-    <section>
-        <h2>Click Button Example</h2>
-        <button onclick="showMessage()">Click Me</button>
-    </section>
+    <div class="card">
+      <h2>⚙️ CI/CD</h2>
+      <p>GitHub Actions build & test</p>
+    </div>
 
-    <section>
-        <h2>Contact Form</h2>
-        <form onsubmit="return validateForm()">
-            <input type="text" id="name" placeholder="Enter your name">
-            <input type="email" id="email" placeholder="Enter your email">
-            <button type="submit">Submit</button>
-        </form>
-        <p id="error" style="color:red;"></p>
-    </section>
+    <div class="card">
+      <h2>🐳 Docker</h2>
+      <p>Image built & pushed to DockerHub</p>
+    </div>
 
-    <footer>
-        <p>© 2026 Static Website with JavaScript</p>
-    </footer>
+    <div class="card">
+      <h2>☸️ Kubernetes</h2>
+      <p>App deployed to cluster</p>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
+  <footer class="footer">
+    <p>🔥 Built by Bhai | DevOps Project</p>
+  </footer>
+
 </body>
 </html>
